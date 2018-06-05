@@ -104,7 +104,7 @@ export class HomePage {
   }
 
   logout() {
-
+ 
     this.authService.logout();
     this.navCtrl.setRoot(LoginPage);
 
